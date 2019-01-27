@@ -1,11 +1,11 @@
-package projectone.sprigframework.pfpetclinic.model;
+package projectone.springframework.pfpetclinic.model;
 
 import java.time.LocalDate;
 
 /**
  * Created by pfuks on 1/4/2019.
  */
-public class Pet {
+public class Pet extends BaseEntity{
 
     private PetType petType;
     private Owner owner;

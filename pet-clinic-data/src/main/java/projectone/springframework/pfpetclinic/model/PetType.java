@@ -1,9 +1,9 @@
-package projectone.sprigframework.pfpetclinic.model;
+package projectone.springframework.pfpetclinic.model;
 
 /**
  * Created by pfuks on 1/4/2019.
  */
-public class PetType {
+public class PetType extends BaseEntity{
 
     private String name;
 
