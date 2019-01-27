@@ -1,17 +1,10 @@
-package projectone.springframework.pfVetclinic.services;
+package projectone.springframework.pfpetclinic.services;
 
 import projectone.springframework.pfpetclinic.model.Vet;
-
-import java.util.Set;
 
 /**
  * Created by pfuks on 1/27/2019.
  */
-public interface VetService {
+public interface VetService extends CrudService<Vet,Long>{
 
-    Vet findById(Long id);
-
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }
